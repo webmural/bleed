@@ -1,0 +1,54 @@
+html {
+  font-family: sans-serif;
+  font-size: calc(1em + 1vw + 1vh);
+  line-height: 1.6;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-wrap: break-word;
+}
+
+dl {
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  line-height: 1;
+}
+
+dt {
+  margin: 0;
+  flex-basis: 100%;
+}
+
+dd {
+  margin: 0;
+  flex-basis: 100%;
+}
+
+figure {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 1em;
+}
+
+header {
+  box-sizing: border-box;
+  padding-inline: 1em;
+}
+
+h1 {
+  display: inline;
+}
+
+i {
+  font-size: calc(2em/3);
+  vertical-align: text-bottom;
+}

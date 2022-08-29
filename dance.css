@@ -1,0 +1,49 @@
+.dew-dance {
+  --dew-shift: color 303ms;
+  --dew-solar: #cd5;
+  --dew-lunar: #528;
+  --dew-locus: currentColor;
+  --dew-hover: hue-rotate(-120deg);
+}
+
+.dew-hot {
+  --dew-solar: #010101;
+  --dew-lunar: deeppink;
+}
+
+.dew-warm {
+  --dew-solar: #202020;
+  --dew-lunar: orchid;
+}
+
+.dew-noise {
+  --dew-solar: #030303;
+  --dew-lunar: #999;
+}
+
+.dew-bae {
+  --dew-solar: #bae;
+  --dew-lunar: #415;
+}
+
+:link {
+  text-decoration: line-through dotted;
+}
+
+:focus {
+  outline-style: dotted;
+  outline-width: thick;
+}
+
+.discoball {
+  position: absolute;
+  top: -100%;
+  /* transition: opacity 909ms;
+  opacity: 0; */
+}
+
+.thump:target {
+  position: relative;
+  top: 0;
+  opacity: 1;
+}
